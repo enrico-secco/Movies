@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50%;
+}
+
+.filmList{
+    margin: 20px
+}
+
+.filmList article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 8px;
+
+    margin: 15px;
+    padding: 15px
+}
+
+.filmList strong {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.filmList img{
+    max-width: 900px;
+    max-height: 350px;
+}
+
+.filmList article a{ /* Link */
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #fff;
+    background-color: brown;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    font-size: 18px;
+
+    width: 100%;
+    height: 40px;
+
+    margin-top: -20px;
+
+}
